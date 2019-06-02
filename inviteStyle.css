@@ -1,0 +1,47 @@
+#floralInvite {
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin: 0 auto; */
+}
+
+.card-img-overlay {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#floralHost {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#floralWhen {
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#floralWhere {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#floralMessage {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#inviteForm {
+    max-width: 70%;
+    margin: 0 auto;
+}
