@@ -1,8 +1,8 @@
 $("#floralInvite").show();
 $("#foodieInvite").hide();
 $("#modernInvite").hide();
-// $("#bloodyInvite").hide();
-// $("#bubblyInvite").hide();
+$("#bloodyInvite").hide();
+$("#bubblyInvite").hide();
 
 $("#submit").on("click", function (event) {
     event.preventDefault();
@@ -32,15 +32,15 @@ $("#submit").on("click", function (event) {
     $("#eventTimeModern").html(eventTime);
     $("#customMessageModern").html(customMessage);
 
-    // $("#hostNameBloody").html(hostName);
-    // $("#eventDateBloody").html(eventDate);
-    // $("#eventTimeBloody").html(eventTime);
-    // $("#customMessageBloody").html(customMessage);
+    $("#hostNameBloody").html(hostName);
+    $("#eventDateBloody").html(eventDate);
+    $("#eventTimeBloody").html(eventTime);
+    $("#customMessageBloody").html(customMessage);
 
-    // $("#hostNameBubbly").html(hostName);
-    // $("#eventDateBubbly").html(eventDate);
-    // $("#eventTimeBubbly").html(eventTime);
-    // $("#customMessageBubbly").html(customMessage);
+    $("#hostNameBubbly").html(hostName);
+    $("#eventDateBubbly").html(eventDate);
+    $("#eventTimeBubbly").html(eventTime);
+    $("#customMessageBubbly").html(customMessage);
 })
 
 $("#floralButton").on("click", function (event) {
@@ -48,8 +48,8 @@ $("#floralButton").on("click", function (event) {
     $("#floralInvite").show();
     $("#foodieInvite").hide();
     $("#modernInvite").hide();
-// $("#bloodyInvite").hide();
-// $("#bubblyInvite").hide();
+$("#bloodyInvite").hide();
+$("#bubblyInvite").hide();
 });
 
 $("#foodieButton").on("click", function (event) {
@@ -57,8 +57,8 @@ $("#foodieButton").on("click", function (event) {
     $("#floralInvite").hide();
     $("#foodieInvite").show();
     $("#modernInvite").hide();
-// $("#bloodyInvite").hide();
-// $("#bubblyInvite").hide();
+$("#bloodyInvite").hide();
+$("#bubblyInvite").hide();
 });
 
 $("#modernButton").on("click", function (event) {
@@ -66,24 +66,24 @@ $("#modernButton").on("click", function (event) {
     $("#floralInvite").hide();
     $("#foodieInvite").hide();
     $("#modernInvite").show();
-// $("#bloodyInvite").hide();
-// $("#bubblyInvite").hide();
+$("#bloodyInvite").hide();
+$("#bubblyInvite").hide();
 });
 
-// $("#bloodyButton").on("click", function (event) {
-//     event.preventDefault();
-//     $("#floralInvite").hide();
-//     $("#foodieInvite").hide();
-//     $("#modernInvite").hide();
-// $("#bloodyInvite").show();
-// $("#bubblyInvite").hide();
-// });
+$("#bloodyButton").on("click", function (event) {
+    event.preventDefault();
+    $("#floralInvite").hide();
+    $("#foodieInvite").hide();
+    $("#modernInvite").hide();
+$("#bloodyInvite").show();
+$("#bubblyInvite").hide();
+});
 
-// $("#bubblyButton").on("click", function (event) {
-//     event.preventDefault();
-//     $("#floralInvite").hide();
-//     $("#foodieInvite").hide();
-//     $("#modernInvite").hide();
-// $("#bloodyInvite").hide();
-// $("#bubblyInvite").show();
-// });
+$("#bubblyButton").on("click", function (event) {
+    event.preventDefault();
+    $("#floralInvite").hide();
+    $("#foodieInvite").hide();
+    $("#modernInvite").hide();
+$("#bloodyInvite").hide();
+$("#bubblyInvite").show();
+});

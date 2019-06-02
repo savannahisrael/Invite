@@ -121,6 +121,71 @@
     text-align: center;
 }
 /* Bloody */
+#bloodyHost {
+    position: absolute;
+    width: 100%;
+    top: 31%;
+    margin: 0 auto;
+    text-align: center;
+}
 
+#bloodyWhen {
+    position: absolute;
+    width: 100%;
+    top: 56%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bloodyWhere {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12pt;
+    line-height: 13pt;
+}
+
+#bloodyMessage {
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
 /* Bubbly */
+#bubblyHost {
+    position: absolute;
+    width: 100%;
+    top: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bubblyWhen {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bubblyWhere {
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12pt;
+    line-height: 13pt;
+}
+
+#bubblyMessage {
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
 
