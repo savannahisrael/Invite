@@ -23,12 +23,13 @@
 <body>
     <h1>Create Your Invite</h1>
 
+    <!-- Floral Invite -->
     <div class="card" id="floralInvite" style="max-width: 600px; min-width: 300px;">
         <img src="floralInvite.png" class="card-img" alt="floral invitation">
         <div class="card-img-overlay">
-            <h5 class="card-title text-center" id="floralHost">Please Join <span id="hostName">Savannah Israel</span> for</h5>
-            <p class="card-text text-center" id="floralWhen"><span id="eventDate">Sunday June 08, 2019</span> at <span
-                    id="eventTime">11:00 AM</span></p>
+            <h5 class="card-title text-center" id="floralHost">Please Join <span id="hostName">Host Name(s)</span> for</h5>
+            <p class="card-text text-center" id="floralWhen"><span id="eventDate">Event Date</span> at <span
+                    id="eventTime">Event Time</span></p>
             <p class="card-text text-center" id="floralWhere"><span id="location">Location Name</span><br><span
                     id="address">1234 Address St<br>City, State, Zipcode</span></p>
             <p class="card-text text-center" id="floralMessage"><span id="customMessage">Your Custom Message Here</span>
@@ -36,6 +37,39 @@
         </div>
     </div>
 
+    <!-- Foodie Invite -->
+    <div class="card" id="foodieInvite" style="max-width: 400px">
+        <img src="foodieInvite.png" class="card-img" alt="floodie invitation">
+        <div class="card-img-overlay">
+            <h6 class="card-title text-center" id="foodieHost">Come Join <span id="hostNameFoodie">Host Name(s)</span></h6>
+            <p class="card-text text-center" id="foodieWhen"><span id="eventDateFoodie">Event Date</span> at <span
+                    id="eventTimeFoodie">Event Time</span></p>
+            <p class="card-text text-center" id="foodieWhere"><span id="location">Location Name</span><br><span
+                    id="address">1234 Address St<br>City, State, Zipcode</span></p>
+            <p class="card-text text-center" id="foodieMessage"><span id="customMessageFoodie">Your Custom Message Here</span>
+            </p>
+        </div>
+    </div>
+<br><br>
+
+    <!-- Invite Style Card Group -->
+    <div class="card-group">
+        <div class="card" style="max-width: 10%">
+          <img src="floralInvite.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <button type="button" class="btn btn-primary" id="floralButton">Floral</button>
+          </div>
+        </div>
+        <div class="card" style="max-width: 10%">
+          <img src="foodieInvite.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <button type="button" class="btn btn-primary" id="foodieButton">Foodie</button>
+          </div>
+        </div>
+      </div>
+<br><br>
+
+<!-- Invite Form -->
     <form id="inviteFORM">
         <div class="form-group">
             <label for="hostNameForm">Host Name</label>

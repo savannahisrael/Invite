@@ -1,3 +1,11 @@
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
 #floralInvite {
     margin-right: 10px;
     margin-left: 10px;
@@ -8,6 +16,7 @@
     padding-right: 0;
     padding-left: 0;
 }
+
 
 #floralHost {
     position: absolute;
@@ -45,3 +54,41 @@
     max-width: 70%;
     margin: 0 auto;
 }
+
+#foodieHost {
+    position: absolute;
+    width: 100%;
+    top: 78%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#foodieWhen {
+    position: absolute;
+    width: 100%;
+    top: 81%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10pt;
+}
+
+#foodieWhere {
+    position: absolute;
+    width: 100%;
+    top: 84%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 11pt;
+}
+
+#foodieMessage {
+    position: absolute;
+    width: 100%;
+    top: 92%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10pt;
+    line-height: 11pt;
+}
+
