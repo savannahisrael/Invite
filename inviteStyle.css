@@ -1,11 +1,4 @@
-.visible {
-    visibility: visible;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
+/* Floral */
 #floralInvite {
     margin-right: 10px;
     margin-left: 10px;
@@ -16,7 +9,6 @@
     padding-right: 0;
     padding-left: 0;
 }
-
 
 #floralHost {
     position: absolute;
@@ -50,11 +42,13 @@
     text-align: center;
 }
 
+/* Invite Form */
 #inviteForm {
     max-width: 70%;
     margin: 0 auto;
 }
 
+/* Foodie */
 #foodieHost {
     position: absolute;
     width: 100%;
@@ -91,4 +85,42 @@
     font-size: 10pt;
     line-height: 11pt;
 }
+
+/* Modern */
+#modernHost {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#modernWhen {
+    position: absolute;
+    width: 100%;
+    top: 47%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#modernWhere {
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12pt;
+    line-height: 13pt;
+}
+
+#modernMessage {
+    position: absolute;
+    width: 100%;
+    top: 62%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Bloody */
+
+/* Bubbly */
 
